@@ -1,4 +1,4 @@
-defmodule Imageer.Repo.Migrations.CreateImages do
+defmodule Imageer.Repo.Migrations.CreateImage do
   use Ecto.Migration
 
   def change do

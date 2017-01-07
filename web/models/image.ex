@@ -1,4 +1,4 @@
-defmodule Imageer.Images do
+defmodule Imageer.Image do
   use Imageer.Web, :model
 
   schema "images" do
