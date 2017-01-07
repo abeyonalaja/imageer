@@ -5,7 +5,8 @@ defmodule Imageer.ImageController do
   alias Imageer.Repo
 
   def index(conn, _) do
-    render(conn, "index.html")
+    images = Repo.all(Image)
+    render(conn, "index.html", images: images)
   end
 
   def new(conn,_) do
